@@ -2,11 +2,13 @@ const path = require('path');
 
 module.exports = (app) => {
 
-app.get('/notes', (req, res) =>{
-    res.sendFile(path.join(__dirname, 'notes.html'));
-});
+//GET request for returning notes.html file
+    app.get('/notes', (req, res) =>{
+        res.sendFile(path.join(__dirname, 'notes.html'));
+    });
 
-app.get('*', (req, res)=> {
-    res.sendFile(path.join(__dirname, 'index.html'))
-})
-}
+    //GET request to return index.html file
+    app.get('*', (req, res)=> {
+        res.sendFile(path.join(__dirname, 'index.html'))
+    })      
+};
