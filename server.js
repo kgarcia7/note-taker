@@ -8,6 +8,7 @@ const app = express();
 //Middleware for parsing JSON and urlencoded form data
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({  extended: true  }));
+app.use(express.json());
 
 
 app.listen(PORT, () =>
