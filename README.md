@@ -25,7 +25,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ### Resources
 *The following links were used as reference to create my portfolio page*
 
-- 
+- https://expressjs.com/en/guide/routing.html
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
 
-Link to walkthrough video: 
-
+![Alt text](image-1.png)
+![Alt text](image-3.png)
