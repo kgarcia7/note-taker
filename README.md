@@ -1,6 +1,7 @@
-# week-11-module-challenge
-
 # Express.js Challenge: Note Taker
+
+## Description
+Create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ## User Story
 AS A small business owner  
@@ -22,11 +23,11 @@ THEN that note appears in the right-hand column and a "New Note" button appears 
 WHEN I click on the "New Note" button in the navigation at the top of the page  
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears  
 
+![Alt text](image-1.png)
+![Alt text](image-3.png)
+
 ### Resources
 *The following links were used as reference to create my portfolio page*
 
 - https://expressjs.com/en/guide/routing.html
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
-
-![Alt text](image-1.png)
-![Alt text](image-3.png)
